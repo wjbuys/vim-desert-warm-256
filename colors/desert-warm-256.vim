@@ -283,6 +283,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('StatusLineNC', 'grey40', 'grey17', 'none')
     call <SID>X('Title', 'indianred')
     call <SID>X('Visual', 'khaki', 'olivedrab', 'none')
+    call <SID>X('CursorLine', '', 'grey24', 'none')
     "VisualNOS
     call <SID>X('WarningMsg', 'salmon', '', '')
     "WildMenu
